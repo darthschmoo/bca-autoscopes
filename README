@@ -1,0 +1,15 @@
+AutoScopes
+==========
+
+Warning:  Haven't really tested the Rails3 version.
+Warning:  You may just want to use Pacecar.  https://github.com/thoughtbot/pacecar
+
+Example
+=======
+
+Pic.auto_scopes
+Pic.title_starts_with("Mountain")
+Pic.width_in_range( 800, 1200  ).created_after( 3.days.ago )
+Pic.visible.recent.random( 7 )
+
+Copyright (c) 2009 [name of plugin creator], released under the MIT license
