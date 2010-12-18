@@ -113,7 +113,7 @@ module BCA
       end
 
 
-      def add_random_scope
+      def add_random_scopes
         politely_add_named_scope :random, lambda { |i|
           ids = []
 
@@ -382,7 +382,7 @@ module BCA
       end
 
 
-      def add_random_scope()
+      def add_random_scopes()
         # do nothing.  Not implemented yet.
       end
       # Scopes dealing with "magic" created_at and updated_at columns.
